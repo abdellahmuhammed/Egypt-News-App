@@ -19,6 +19,7 @@ class HomeLayout extends StatelessWidget {
             title: const Text('NewsApp'),
             actions: [
               IconButton(
+                icon : Icon(Icons.add)
                 icon: const Icon(Icons.search),
                 onPressed: () {
                   NavigateTo(context, SearchScreen());
