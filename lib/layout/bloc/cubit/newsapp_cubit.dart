@@ -90,7 +90,6 @@ class NewsappCubit extends Cubit<NewsappState> {
   }
 
 
-
   List<dynamic> Science = [];
 
   void getDataScience() {
@@ -114,6 +113,7 @@ class NewsappCubit extends Cubit<NewsappState> {
       emit(GetScienceDataSuccessState());
     }
   }
+
 
   List<dynamic> Search = [];
 
